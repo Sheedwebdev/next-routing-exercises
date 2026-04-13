@@ -3,6 +3,9 @@ import Link from 'next/link';
 
 import styled from 'styled-components';
 
+export const metadata = {
+  title: 'Screensaver Color Options',
+}
 
 function ScreenSaverIndexPage() {
   return (
