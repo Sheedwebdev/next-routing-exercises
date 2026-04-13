@@ -4,6 +4,10 @@ import ToastShelf from '../../../components/ToastShelf';
 
 import './styles.css';
 
+export const metadata = {
+  title: 'Default Title',
+}
+
 function FlashMsgLayout({ children }) {
   return (
     <html lang="en">
